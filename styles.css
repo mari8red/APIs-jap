@@ -2,69 +2,145 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url("https://cdn.pixabay.com/photo/2021/10/21/16/34/cat-6729606_640.jpg");
-    background-size:contain;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
+@media (min-width: 761px){
+    body{
+        background-image: url("https://cdn.pixabay.com/photo/2021/10/21/16/34/cat-6729606_640.jpg");
+        background-size:contain;
+        background-repeat: repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #meowButton{
+        border: none;
+        background-color: peachpuff;
+        color: rgb(191, 99, 110);
+        width: fit-content;
+    }
+    
+    #meowButtonContainer{
+        background-color: peachpuff;
+        margin: 0;
+        display: flex;
+        padding: 4vh;
+        border: 5px solid peachpuff;
+        border-radius: 100px;
+        width:max-content;
+    }
+    
+    #staticBackdrop{
+        background-color: #ffffff;
+        background-image: url("https://cdn.pixabay.com/photo/2016/03/17/06/49/renovation-1262389_1280.png");
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+        overflow-y: hidden; 
+        overflow-x: hidden; 
+    }
+    
+    #popupContainer {
+        display: flex;
+        pointer-events: none;
+        top: 100px;
+        left: 370;
+        width: fit-content;
+        margin: 0;
+    }
+    
+    #popupCard{
+        background:none;
+        border: none;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+    
+    #popupCard h3{
+        margin: 0;
+    }
+    
+    #popupMessage{
+        width: 140%;
+    }
 }
 
-#meowButton{
-    border: none;
-    background-color: peachpuff;
-    color: rgb(191, 99, 110);
-    font-family:Arial, Helvetica, sans-serif;
-    width: fit-content;
-}
 
-#meowButtonContainer{
-    background-color: peachpuff;
-    margin: 0;
-    display: flex;
-    padding: 4vh;
-    border: 5px solid peachpuff;
-    border-radius: 100px;
-    width:max-content;
-}
+@media (max-width: 760px){
+    body{
+        background-image: url("https://cdn.pixabay.com/photo/2021/10/21/16/34/cat-6729606_640.jpg");
+        background-size:contain;
+        background-repeat: repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #meowButton{
+        border: none;
+        background-color: peachpuff;
+        color: rgb(191, 99, 110);
+        width: fit-content;
+    }
+    
+    #meowButtonContainer{
+        background-color: peachpuff;
+        margin: auto;
+        display: flex;
+        padding: 2vh;
+        border: 2px solid peachpuff;
+        border-radius: 100px;
+        width:fit-content;
+    }
+    
+    #staticBackdrop{
+        background-color: #ffffff;
+        background-image: url("https://cdn.pixabay.com/photo/2016/03/17/06/49/renovation-1262389_1280.png");
+        background-size:50rem;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        height: 100%;
+        width: min-content;
+        overflow-y: hidden; 
+        overflow-x: hidden; 
+    }
+    
+    #popupContainer {
+        display: flex;
+        pointer-events: none;
+        top: 10px;
+        left: 100px;
+        width: 10rem;
+        margin: 0;        
+        justify-self: center;
+        justify-content: center;
+    }
+    
+    #popupCard{
+        background:none;
+        border: none;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+    
+    #popupCard h3{
+        margin: 0;
+    }
+    
+    #popupMessage{
+        width: 140%;
+    }
 
-#staticBackdrop{
-    background-color: #ffffff;
-    background-image: url("https://cdn.pixabay.com/photo/2016/03/17/06/49/renovation-1262389_1280.png");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100%;
-    overflow-y: hidden; 
-    overflow-x: hidden; 
-}
 
-#popupContainer {
-    display: flex;
-    pointer-events: none;
-    top: 100px;
-    left: 370;
-    width: fit-content;
-    margin: 0;
-}
-
-#popupCard{
-    background:none;
-    border: none;
-    font-family:Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    font-size: 1.2rem;
-}
-
-#popupCard h3{
-    margin: 0;
-}
-
-#popupMessage{
-    width: 140%;
 }
