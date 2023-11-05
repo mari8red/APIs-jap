@@ -18,7 +18,7 @@ body{
     border: none;
     background-color: peachpuff;
     color: rgb(191, 99, 110);
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     width: fit-content;
 }
 
@@ -27,7 +27,7 @@ body{
     margin: 0;
     display: flex;
     padding: 4vh;
-    border: 5px solid black;
+    border: 5px solid peachpuff;
     border-radius: 100px;
     width:max-content;
 }
@@ -55,7 +55,7 @@ body{
 #popupCard{
     background:none;
     border: none;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     font-size: 1.2rem;
