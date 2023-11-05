@@ -36,7 +36,7 @@
     #staticBackdrop{
         background-color: #ffffff;
         background-image: url("https://cdn.pixabay.com/photo/2016/03/17/06/49/renovation-1262389_1280.png");
-        background-size:contain;
+        background-size:cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         height: 100%;
@@ -111,16 +111,14 @@
         background-position: center;
         height: 100%;
         width: min-content;
-        overflow-y: hidden; 
-        overflow-x: hidden; 
     }
     
     #popupContainer {
         display: flex;
         pointer-events: none;
         top: 10px;
-        left: 100px;
-        width: 10rem;
+        left: 80px;
+        width:20vh;
         margin: 0;        
         justify-self: center;
         justify-content: center;
@@ -139,7 +137,7 @@
     }
     
     #popupMessage{
-        width: 140%;
+        width: 150%;
     }
 
 
