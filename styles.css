@@ -3,6 +3,7 @@
 }
 
 @media (min-width: 761px){
+    /* A partir de esta línea diseñamos los estilos de la página inicial */
     body{
         background-image: url("https://cdn.pixabay.com/photo/2021/10/21/16/34/cat-6729606_640.jpg");
         background-size:contain;
@@ -16,14 +17,14 @@
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
-    #meowButton{
+    #meowButton1{
         border: none;
         background-color: peachpuff;
         color: rgb(191, 99, 110);
         width: fit-content;
     }
     
-    #meowButtonContainer{
+    #meowButton1Container{
         background-color: peachpuff;
         margin: 0;
         display: flex;
@@ -33,6 +34,7 @@
         width:max-content;
     }
     
+    /* A partir de aquí diseñamos los estilos del modal (ventana secundaria) */
     #staticBackdrop{
         background-color: #ffffff;
         background-image: url("https://cdn.pixabay.com/photo/2016/03/17/06/49/renovation-1262389_1280.png");
@@ -72,6 +74,7 @@
 
 
 @media (max-width: 760px){
+    /* A partir de esta línea diseñamos los estilos de la página inicial */
     body{
         background-image: url("https://cdn.pixabay.com/photo/2021/10/21/16/34/cat-6729606_640.jpg");
         background-size:contain;
@@ -85,14 +88,14 @@
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
-    #meowButton{
+    #meowButton1{
         border: none;
         background-color: peachpuff;
         color: rgb(191, 99, 110);
         width: fit-content;
     }
     
-    #meowButtonContainer{
+    #meowButton1Container{
         background-color: peachpuff;
         margin: auto;
         display: flex;
@@ -102,6 +105,7 @@
         width:fit-content;
     }
     
+    /* A partir de aquí diseñamos los estilos del modal (ventana secundaria) */
     #staticBackdrop{
         background-color: #ffffff;
         background-image: url("https://cdn.pixabay.com/photo/2016/03/17/06/49/renovation-1262389_1280.png");
